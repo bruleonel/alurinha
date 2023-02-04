@@ -1,4 +1,4 @@
-#Projeto criado para o estudo de flexbox
+# Projeto criado para o estudo de flexbox
 
 display: inline
 
