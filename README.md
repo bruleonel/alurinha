@@ -21,3 +21,40 @@ O display: flex veio com o intuito de facilitar nossa vida nesses aspectos de po
 O display flex pode ser um pouco mais complicado de usar tendo em vista que existem diversas propriedades que vem junto da especificação flexible box, todavia tudo isso foi feito para justamente melhorar nosso código.
 
 Agora que já tivemos essa introdução, vamos logo começar a organizar nosso site com flex (;
+
+
+container:
+
+display: flex
+flex-direction
+justify-content
+flex-wrap
+flex-flow
+align-items
+align-content
+flex item:
+
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
+
+A propriedade flex-grow vista no exercício anterior ajuda muito caso queiramos que um elemento ocupe toda a largura restante do flex container.
+
+Por exemplo, se temos:
+
+Elemento 1: 200 px.
+
+Elemento 2: 200 px.
+
+Espaço vazio que sobrou do flex container: 600 px.
+
+Total: 1000 px.
+
+Se colocamos flex-grow: 1 no primeiro elemento, ele passa a ter 800 px de largura, ou seja:
+
+Espaço vazio + Elemento 1: 800 px.
+
+E o segundo elemento continua tendo 200 px de largura.
