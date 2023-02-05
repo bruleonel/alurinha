@@ -1,6 +1,8 @@
 # Projeto criado para o estudo de flexbox
 
-display: inline
+## display: inline 
+
+https://samanthaming.gumlet.io/pictorials/css-inline-vs-inlineblock-vs-block-1.jpg.gz?format=auto
 
 Colocando display: inline nos elementos permite eles se posicionarem um do lado do outro, o problema do display: inline é que os elementos não aceitam mais que seja modificada tanto a width quanto a height. Isso limita MUITO nossas possibilidades.
 
