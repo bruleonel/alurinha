@@ -4,7 +4,8 @@ flex-start: os itens se alinham no lado esquerdo do contêiner.
 flex-end: os itens se alinham no lado direito do contêiner.
 
 <span align="center">
-  <img src="img/flex-end" alt="imagem quadrada com itens alinhados à direita superior">
+  <img src="![flex-end](https://user-images.githubusercontent.com/104650333/216861515-23f6e9b3-68ba-48ba-b6d3-2ef558e73438.png)
+" alt="imagem quadrada com itens alinhados à direita superior">
  </span>
 
 center: os itens se alinham no centro do contêiner.
