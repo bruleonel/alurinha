@@ -2,6 +2,11 @@
 
 flex-start: os itens se alinham no lado esquerdo do contêiner.
 flex-end: os itens se alinham no lado direito do contêiner.
+
+<span align="center">
+  <img src="img/flex-end" alt="imagem quadrada com itens alinhados à direita superior">
+ </span>
+
 center: os itens se alinham no centro do contêiner.
 space-between: os itens são exibidos com espaçamento igual entre eles.
 space-around: os itens são exibidos com espaçamento igual ao redor deles.
