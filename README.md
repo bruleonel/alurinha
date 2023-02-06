@@ -1,60 +1,14 @@
-# Projeto criado para o estudo de flexbox
+### Justify-content:
 
-## display: inline 
+flex-start: os itens se alinham no lado esquerdo do contêiner.
+flex-end: os itens se alinham no lado direito do contêiner.
+center: os itens se alinham no centro do contêiner.
+space-between: os itens são exibidos com espaçamento igual entre eles.
+space-around: os itens são exibidos com espaçamento igual ao redor deles.
 
-Colocando display: inline nos elementos permite eles se posicionarem um do lado do outro, o problema do display: inline é que os elementos não aceitam mais que seja modificada tanto a width quanto a height. Isso limita MUITO nossas possibilidades.
-
-## display: inline-block
-
-O display: inline-block permite os elementos se posicionarem um do lado do outro porém, diferentemente do display: inline ele permite que os elementos tenham sua width e height modificadas. Por esse motivo o display: inline-block é muito mais interessante na maioria dos casos do que o display: inline.
-
-O problema de usar display: inline-block é espaçar os elementos entre si. Para fazer isso teríamos que colocar margins e fazer contas.
-
-## float: left | right
-
-O float é mais complicado, ele empurra o elemento para um dos lados (left | right) e os elementos que estão embaixo sobem. Isso nem sempre é o que a gente quer. Além do mais o float não permite que usemos a propriedade vertical-align: middle para alinhar os elementos verticalmente. Ou seja, para contornar isso uma possibilidade seria ter que colocar margin-top ou bottom nos elementos e usar os temidos números mágicos!
-
-## display: flex
-
-O display: flex veio com o intuito de facilitar nossa vida nesses aspectos de posicionamento. Ele permite os elementos ficarem um do lado do outro, permite espaçar os elementos de forma mais intuitiva e sem ter que fazer cálculos. Além disso ele também permite alinhar os elementos verticalmente de forma fácil.
-
-O display flex pode ser um pouco mais complicado de usar tendo em vista que existem diversas propriedades que vem junto da especificação flexible box, todavia tudo isso foi feito para justamente melhorar nosso código.
-
-Agora que já tivemos essa introdução, vamos logo começar a organizar nosso site com flex (;
-
-
-## container:
-
-display: flex
-flex-direction
-justify-content
-flex-wrap
-flex-flow
-align-items
-align-content
-flex item:
-
-## order
-flex-grow
-flex-shrink
-flex-basis
-flex
-align-self
-
-A propriedade flex-grow ajuda muito caso queiramos que um elemento ocupe toda a largura restante do flex container.
-
-Por exemplo, se temos:
-
-Elemento 1: 200 px.
-
-Elemento 2: 200 px.
-
-Espaço vazio que sobrou do flex container: 600 px.
-
-Total: 1000 px.
-
-Se colocamos flex-grow: 1 no primeiro elemento, ele passa a ter 800 px de largura, ou seja:
-
-Espaço vazio + Elemento 1: 800 px.
-
-E o segundo elemento continua tendo 200 px de largura.
+### Align-items:
+flex-start: os itens se alinham na parte superior do contêiner.
+flex-end: os itens se alinham na parte inferior do contêiner.
+center: os itens se alinham no centro vertical do contêiner.
+baseline: os itens são exibidos na linha de base do contêiner.
+stretch: os itens são esticados para caber no contêiner.
