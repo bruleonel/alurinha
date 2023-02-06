@@ -1,10 +1,11 @@
 ### Justify-content:
 
 flex-start: os itens se alinham no lado esquerdo do contêiner.
+
 flex-end: os itens se alinham no lado direito do contêiner.
 
 <span align="center">
-  <img src="img/flex-end.png"
+  <img width="200" height="200" src="img/flex-end.png"
   alt="imagem quadrada com itens alinhados à direita superior">
 </span>
 
