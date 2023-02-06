@@ -51,3 +51,14 @@ center: os itens se alinham no centro vertical do contêiner.
 baseline: os itens são exibidos na linha de base do contêiner.
 
 stretch: os itens são esticados para caber no contêiner.
+
+## Flex Direction:
+
+row: os itens são colocados da mesma forma que a direção do texto.
+
+row-reverse: os itens são colocados opostos à direção do texto.
+
+column:  os itens são colocados de cima para baixo.
+
+column-reverse: os itens são colocados de baixo para cima.
+
